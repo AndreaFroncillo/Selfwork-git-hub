@@ -55,8 +55,27 @@ body{
 /* Header */
 
 .header-custom{
-    height: 90vh;
+    height: 92vh;
     background-image: linear-gradient(rgba(255, 190, 12, 0.4), rgba(255, 190, 12, 0.4)) ,url(https://picsum.photos/2000);
     background-position: center;
     background-size: cover;
+}
+
+/* Navbar */
+
+.navbar{
+    min-height: 8vh;
+}
+
+.nav-link{
+    color: var(--am);
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border-bottom: 1.5px solid var(--am);
+}
+
+.logo{
+    width: 50px;
 }
