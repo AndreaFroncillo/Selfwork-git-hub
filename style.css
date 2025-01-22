@@ -79,3 +79,18 @@ body{
 .logo{
     width: 50px;
 }
+
+/* Carousel */
+
+@media screen and (min-width: 800px) {
+   
+    .carousel-custom{
+        min-height: 70vh;
+    }
+
+    .img-carousel{
+        background-position: center;
+        background-size: cover;
+        height: 75vh;
+    }
+}
