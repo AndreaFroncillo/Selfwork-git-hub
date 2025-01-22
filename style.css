@@ -1,0 +1,53 @@
+/* Variabili */
+
+:root{
+    --am: #FFBE0B;
+    --or: #FB5607;
+    --rc: #D1345B;
+    --b: #000000;
+}
+
+/* Body */
+
+body{
+    background-color: var(--or);
+    color: var(--am);
+}
+
+*{
+    font-family: "Montserrat", serif;
+}
+
+/* Background-color calasses */
+
+.bg-am{
+    background-color: var(--am);
+}
+
+.bg-or{
+    background-color: var(--or);
+}
+
+.bg-rc{
+    background-color: var(--rc);
+}
+
+.bg-b{
+    background-color: var(--b);
+}
+
+.text-am{
+    color: var(--am);
+}
+
+.text-or{
+    color: var(--or);
+}
+
+.text-rc{
+    color: var(--rc);
+}
+
+.text-b{
+    color: var(--b);
+}
