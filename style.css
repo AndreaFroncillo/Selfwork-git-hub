@@ -94,3 +94,15 @@ body{
         height: 75vh;
     }
 }
+
+/* Cards */
+
+.card{
+    width: 18rem;
+}
+
+.btn-custom{
+    box-sizing: border-box;
+    background-color: var(--am);
+    margin-left: 20%;
+}
